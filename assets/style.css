@@ -184,6 +184,7 @@
   
   .content__desc {
     margin: 0;
+    font-size: 18px;
   }
   
   .content--slide .content__title {
@@ -220,18 +221,25 @@
   }
   
   .content--hero .content__title {
-    font-size: 42px;
+    font-size: 50px;
     font-weight: lighter;
     color: #fff;
     margin: 0 0 0.2em;
-    padding: 0.5em 1em; /* Adjust padding as needed */
+    padding: 0.1em 1em; /* Adjust padding as needed */
+    padding-left: 0;
   }
   .content__text a{
     margin-top: 20px;
+    padding: 10px 0px;
     color: #fff;
+  }
+  .content__text a .btn-txt{
+    display: flex;
+    gap: 4px;
   }
   
   .content--hero .content__text {
+    text-align: start;
     width: 45%;
     margin: 0 auto; /* Center the text */
     opacity: 2; /* Set initial opacity to 0 for animation */
